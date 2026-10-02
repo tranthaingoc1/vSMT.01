@@ -1,0 +1,92 @@
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: #f2f5f2;
+  color: #19372b;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+main {
+  max-width: 520px;
+  margin: auto;
+  padding: 16px;
+}
+
+header {
+  background: linear-gradient(135deg, #153b2d, #347653);
+  color: white;
+  padding: 28px 22px;
+  border-radius: 24px;
+  margin-bottom: 18px;
+}
+
+header p {
+  color: #bce8cb;
+  font-size: 11px;
+  letter-spacing: 2px;
+}
+
+h1 { font-size: 30px; margin: 16px 0 8px; }
+header span { font-size: 13px; color: #d6e9dc; }
+
+section {
+  background: white;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 18px;
+  border: 1px solid #e3eae4;
+}
+
+h2 { font-size: 17px; margin-top: 0; }
+
+form { display: grid; gap: 10px; }
+label { font-size: 13px; font-weight: 600; }
+
+input:not([type="checkbox"]), select {
+  width: 100%;
+  min-height: 46px;
+  padding: 10px;
+  border: 1px solid #dce5dd;
+  border-radius: 11px;
+  background: #fbfcfb;
+  font: inherit;
+}
+
+button {
+  border: 0;
+  border-radius: 11px;
+  padding: 13px;
+  background: #246747;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+article {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border-top: 1px solid #edf0ed;
+  padding: 15px 0;
+}
+
+.info { flex: 1; min-width: 0; }
+.info b, .info small { display: block; overflow-wrap: anywhere; }
+.info small { color: #78877e; margin-top: 6px; font-size: 12px; }
+.done { text-decoration: line-through; color: #8a998f; }
+
+.delete {
+  background: #fbeeed;
+  color: #a33b32;
+  font-size: 20px;
+  padding: 6px 12px;
+}
+
+footer {
+  text-align: center;
+  color: #87958b;
+  font-size: 12px;
+  padding: 15px;
+}
